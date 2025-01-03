@@ -29,20 +29,20 @@ export const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
     overflow-y: auto;
-    /* background-color: ${(props) => props.theme.colors.backGroundColor}; */
+    background-color: ${(props) => props.theme.colors.background};
     &::-webkit-scrollbar{
       display: none;
     }
   }
-  &::-webkit-scrollbar {
-    /* background-color: ${(props) => props.theme.colors.light_3}; */
+  /* &::-webkit-scrollbar {
+    background-color: ${(props) => props.theme.colors.light_3};
     width: 0.4rem;
     border-radius: 10px;
   }
   &::-webkit-scrollbar-thumb {
-    /* background-color: ${(props) => props.theme.colors.background}; */
+    background-color: ${(props) => props.theme.colors.background};
     border-radius: 10px;
-  }
+  } */
   #root {
   width: 100vw;
   height: 100vh;

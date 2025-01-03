@@ -33,8 +33,8 @@ export const ThemeConfig = {
 
   typo: {
     dektop_navbar: typoCreator('1rem', 900, '0', '1'),
-    desktop_h1: typoCreator('8.67rem', 900, '0', '1'),
-    desktop_h2: typoCreator('5.67rem', 700, '0', '1'),
+    desktop_h2: typoCreator('8.67rem', 900, '0', '1'),
+    desktop_h3: typoCreator('5.67rem', 700, '0', '1'),
     desktop_stroke_1: typoCreator('3rem', 500, '0', '1'),
     desktop_stroke_2: typoCreator('2rem', 400, '0', '1'),
     desktop_text_1: typoCreator('1.5rem', 400, '0', '1'),

@@ -1,6 +1,15 @@
+import LeftSide from './components/Side/LeftSide';
+import RightSide from './components/Side/RightSide';
+import { Container } from './styles/StyleModule';
+
 function App() {
   return (
-    <div className="App">test</div>
+    <div className="App">
+      <Container>
+        <LeftSide />
+        <RightSide />
+      </Container>
+    </div>
   );
 }
 
